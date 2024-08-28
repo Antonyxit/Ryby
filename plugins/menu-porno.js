@@ -84,7 +84,7 @@ lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
 let menu =`
-  ╭━〔 *𝑿𝑿𝑿 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕* 〕
+  ╭━〔 *𝑿𝑿𝑿 𝑹𝒖𝒃𝒚 𝑩𝒐𝒕* 〕
  *┃➤* _${usedPrefix}Manuelaqm_
  *┃➤* _${usedPrefix}OnlyVip2_
  *┃➤* _${usedPrefix}Booty2_
@@ -112,8 +112,8 @@ let menu =`
  *┃➤* _${usedPrefix}Porno_
  *┃➤* _${usedPrefix}RamdonXxx_
  *┃➤* _${usedPrefix}Pechos_
-  ╰━━━━━━𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕━━━━━━━`.trim()
-await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗠𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 💦', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
+  ╰━━━━━━𝑹𝒖𝒃𝒚 𝑩𝒐𝒕━━━━━━━`.trim()
+await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝑹𝒖𝒃𝒚 𝗕𝗼𝘁 💦', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
 } catch (e) {
@@ -122,7 +122,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 
 //handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
-handler.command = /^(ManjiroPajero|ManjiroPornero|\?)$/i
+handler.command = /^(Menuhorny|Hornymenu|\?)$/i
 export default handler
 
 const more = String.fromCharCode(8206)
