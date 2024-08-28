@@ -84,64 +84,20 @@ lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
 let menu =`
- ╭━     ☁️  𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━       𝑹𝒖𝒃𝒚 𝑩𝒐𝒕
  ┃
  ┃    𝑯𝒐𝒍𝒂, ${taguser}
  ┃
- ┃   𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : 𝑺𝒉𝒂𝒅𝒐𝒘𝑽𝒛 ☁️ 
- ┃   𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 : https://www.instagram.com/shadow.vz/
- ┃   𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 : wa.me/525541081250
- ┃   𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : https://www.facebook.com/Shadow.Vnts?mibextid=ZbWKwL
+ ┃   𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : 𝑫𝒂𝒏𝒏𝒚 𝑽𝒏𝒕𝒔
+ ┃   𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 : wa.me/528180766681
  ┃   𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐨 : ${uptime}
- ┃
  ╰━━━━━━━━━━━━
 
 
-  
- ╭━      ☁️ 𝑰𝒏𝒇𝒐 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
- ┃
- ┃   ${usedPrefix}listagrupos
- ┃   ${usedPrefix}estado
- ┃   ${usedPrefix}creador
- ┃   ${usedPrefix}velocidad
- ┃
- ╰━━━━━━━━━━━━━
-
  
   
- ╭━      ☁️ 𝑭𝑭 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕  ☁️ 
- ┃
- ┃   ${usedPrefix}Lista3 / Lista De Actividades
- ┃   ${usedPrefix}Masc18 / Lista Masc 18
- ┃   ${usedPrefix}Masc20 / Lista Masc 20
- ┃   ${usedPrefix}Masc22 / Lista Masc 22
- ┃   ${usedPrefix}Masc00 / Lista Masc 00
- ┃   ${usedPrefix}Fem18 / Lista Fem 18
- ┃   ${usedPrefix}Fem20 / Lista Fem 20
- ┃   ${usedPrefix}Fem22 / Lista Fem 22
- ┃   ${usedPrefix}Fem00 / Lista Fem 00
- ┃   ${usedPrefix}Mixto18 / Lista Mixto 18
- ┃   ${usedPrefix}Mixto20 / Lista Mixto 20
- ┃   ${usedPrefix}Mixto22 / Lista Mixto 22
- ┃   ${usedPrefix}Mixto00 / Lista Mixto 00
- ┃   ${usedPrefix}BsFem / Buscar Vs Fem
- ┃   ${usedPrefix}BsMasc / Buscar Vs Masc
- ┃   ${usedPrefix}BsMixto / Buscar Vs Mixto
- ┃   ${usedPrefix}Bermuda / Mapa Free Fire 2024
- ┃   ${usedPrefix}Nexterra / Mapa Free Fire 2024
- ┃   ${usedPrefix}Kalahari / Mapa Free Fire 2024
- ┃   ${usedPrefix}Agenda / Agenda Oficial De Free Fire
- ┃   ${usedPrefix}Formulario / Ficha Para Entrar Al Team
- ┃   ${usedPrefix}Apos / Reglas Apos Sur
- ┃   ${usedPrefix}Vv2 / Reglas Vv2 Sur
- ┃   ${usedPrefix}Mapa / Reglas Mapa Sur
- ┃   ${usedPrefix}InfinitoFem / Reglas Infinito Femenina Sur
- ┃
- ╰━━━━━━━━━━━━━
- 
-
   
- ╭━     ☁️ 𝑱𝒖𝒆𝒈𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑱𝒖𝒆𝒈𝒐𝒔 
  ┃
  ┃   ${usedPrefix}mates | matemáticas | math
  ┃   ${usedPrefix}lanzar *cara* | *cruz*
@@ -192,7 +148,7 @@ let menu =`
   
 
 
- ╭━     ☁️ 𝑨𝒋𝒖𝒔𝒕𝒆𝒔 𝑫𝒆 𝑮𝒓𝒖𝒑𝒐 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑨𝒋𝒖𝒔𝒕𝒆𝒔 𝑫𝒆 𝑮𝒓𝒖𝒑𝒐
  ┃
  ┃   ${usedPrefix}enable *o* disable *bienvenida | welcome*
  ┃   ${usedPrefix}enable *o* disable *avisos | detect*
@@ -226,7 +182,7 @@ let menu =`
 
  
 
- ╭━     ☁️ 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔 
  ┃
  ┃   ${usedPrefix}imagen | image *texto*
  ┃   ${usedPrefix}pinterest | dlpinterest *texto*
@@ -260,7 +216,7 @@ let menu =`
 
 
 
- ╭━     ☁️ 𝑪𝒉𝒂𝒕 𝑨𝒏𝒐𝒏𝒊𝒎𝒐 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━   𝑪𝒉𝒂𝒕 𝑨𝒏𝒐𝒏𝒊𝒎𝒐 
  ┃
  ┃   ${usedPrefix}chatanonimo | anonimochat
  ┃   ${usedPrefix}anonimoch
@@ -272,7 +228,7 @@ let menu =`
 
  
 
- ╭━     ☁️ 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑮𝒓𝒖𝒑𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑮𝒓𝒖𝒑𝒐𝒔 
  ┃
  ┃   ${usedPrefix}add *numero*
  ┃   ${usedPrefix}sacar | ban | kick  *@tag*
@@ -311,7 +267,7 @@ let menu =`
 
  
 
- ╭━     ☁️ 𝑷𝒂𝒓𝒆𝒋𝒂𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑷𝒂𝒓𝒆𝒋𝒂𝒔 
  ┃
  ┃   ${usedPrefix}listaparejas | listship
  ┃   ${usedPrefix}mipareja | mylove
@@ -324,7 +280,7 @@ let menu =`
 
 
 
- ╭━     ☁️ 𝑽𝒐𝒕𝒂𝒅𝒐𝒓𝒆𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑽𝒐𝒕𝒂𝒅𝒐𝒓𝒆𝒔 
  ┃
  ┃   ${usedPrefix}crearvoto | startvoto *texto*
  ┃   ${usedPrefix}sivotar | upvote
@@ -334,7 +290,7 @@ let menu =`
  ┃
  ╰━━━━━━━━━━━━━
 
- ╭━     ☁️ 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━   𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 
  ┃
  ┃   ${usedPrefix}toimg | img | jpg *sticker*
  ┃   ${usedPrefix}toanime | jadianime *foto*
@@ -347,14 +303,14 @@ let menu =`
  ┃
  ╰━━━━━━━━━━━━━
 
- ╭━     ☁️ 𝑳𝒐𝒈𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑳𝒐𝒈𝒐𝒔 
  ┃
  ┃   ${usedPrefix}logos *efecto texto*
  ┃   ${usedPrefix}menulogos2
  ┃
  ╰━━━━━━━━━━━━━
   
- ╭━     ☁️ 𝑳𝒐𝒈𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️
+ ╭━     𝑳𝒐𝒈𝒐𝒔 
  ┃
  *┃  * _${usedPrefix}simpcard *@tag*_
  *┃  * _${usedPrefix}hornycard *@tag*_
@@ -368,7 +324,7 @@ let menu =`
 
   
 
- ╭━     ☁️ 𝑭𝒂𝒏𝒕𝒂𝒔𝒚 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑭𝒂𝒏𝒕𝒂𝒔𝒚  
  ┃
  ┃   ${usedPrefix}fantasy | fy
  ┃   ${usedPrefix}fyguia | fyguide
@@ -383,7 +339,7 @@ let menu =`
 
 
   
- ╭━     ☁️ 𝑨𝒏𝒊𝒎𝒆𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━     𝑨𝒏𝒊𝒎𝒆𝒔 
  ┃
  ┃   ${usedPrefix}chica
  ┃   ${usedPrefix}chico
@@ -440,7 +396,7 @@ let menu =`
 
  
   
- ╭━     ☁️ 𝑬𝒇𝒆𝒄𝒕𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️
+ ╭━    𝑬𝒇𝒆𝒄𝒕𝒐𝒔 
  ┃
  ┃   ${usedPrefix}bass
  ┃   ${usedPrefix}blown
@@ -459,7 +415,7 @@ let menu =`
 
  
   	
- ╭━     ☁️ 𝑩𝒖𝒔𝒒𝒖𝒆𝒅𝒂𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️
+ ╭━   𝑩𝒖𝒔𝒒𝒖𝒆𝒅𝒂𝒔
  ┃
  ┃   ${usedPrefix}animeinfo *texto*
  ┃   ${usedPrefix}anuel
@@ -478,7 +434,7 @@ let menu =`
 
  
 
- ╭━     ☁️ 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━   𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 
  ┃
  ┃   ${usedPrefix}afk *motivo*
  ┃   _${usedPrefix}acortar *url*
@@ -498,7 +454,7 @@ let menu =`
 
 
  
- ╭━     ☁️ 𝑹𝑷𝑮 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑹𝑷𝑮
  ┃
  ┃   ${usedPrefix}pase premium
  ┃   ${usedPrefix}pass premium
@@ -525,7 +481,7 @@ let menu =`
  ┃   ${usedPrefix}myns
  ┃   ${usedPrefix}unreg *numero de serie*
  ┃   ${usedPrefix}minardiamantes | minargemas
- ┃   ${usedPrefix}minar𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕coins | minarcoins
+ ┃   ${usedPrefix}minar𝑹𝒖𝒃𝒚 𝑩𝒐𝒕coins | minarcoins
  ┃   ${usedPrefix}minarexperiencia | minarexp
  ┃   ${usedPrefix}minar *:* minar2 *:* minar3
  ┃   ${usedPrefix}rob | robar 
@@ -544,11 +500,11 @@ let menu =`
 
  
 
- ╭━     ☁️ 𝑻𝒐𝒑 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑻𝒐𝒑 
  ┃   ${usedPrefix}top
  ╰━━━━━━━━━━━━━
   
- ╭━     ☁️ 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 
  ┃
  ┃   ${usedPrefix}sticker | s *imagen o video*
  ┃   ${usedPrefix}sticker | s *url de tipo jpg*
@@ -570,14 +526,14 @@ let menu =`
  ┃
  ╰━━━━━━━━━━━━━
   
- ╭━     ☁️ 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔2 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔2
  ┃
  ┃   ${usedPrefix}wm *packname|author*
  ┃   ${usedPrefix}wm *texto1|texto2*
  ┃
  ╰━━━━━━━━━━━━━
   
- ╭━     ☁️ 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔3 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━   𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔3 
  ┃
  ┃   ${usedPrefix}palmaditas | pat *@tag*
  ┃   ${usedPrefix}bofetada | slap *@tag*
@@ -589,13 +545,13 @@ let menu =`
 
  
   
- ╭━     ☁️ 𝑶𝒘𝒏𝒆𝒓𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ☁️ 
+ ╭━    𝑶𝒘𝒏𝒆𝒓𝒔  
  ┃
  ┃   ${usedPrefix}join *enlace*
  ┃   ${usedPrefix}unete *enlace*
  ┃   ${usedPrefix}dardiamantes *cantidad*
  ┃   ${usedPrefix}darxp *cantidad*
- ┃   ${usedPrefix}dar𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕coins *cantidad*
+ ┃   ${usedPrefix}dar𝑹𝒖𝒃𝒚 𝑩𝒐𝒕coins *cantidad*
  ┃   ${usedPrefix}addprem | userpremium *@tag* *cantidad*
  ┃   ${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*
  ┃   ${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*
@@ -609,7 +565,7 @@ let menu =`
  ┃   ${usedPrefix}comunicargrupos *texto*
  ┃   ${usedPrefix}borrartmp | cleartmp
  ┃   ${usedPrefix}delexp *@tag*
- ┃   ${usedPrefix}del𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕coins *@tag*
+ ┃   ${usedPrefix}del𝑹𝒖𝒃𝒚 𝑩𝒐𝒕coins *@tag*
  ┃   ${usedPrefix}deldiamantes *@tag*
  ┃   ${usedPrefix}reiniciar | restart
  ┃   ${usedPrefix}actualizar | update
@@ -618,11 +574,11 @@ let menu =`
  ┃   ${usedPrefix}listapremium | listprem
  ┃   ${usedPrefix}añadirdiamantes *@tag cantidad*
  ┃   ${usedPrefix}añadirxp *@tag cantidad*
- ┃   ${usedPrefix}añadir𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕coins *@tag cantidad*
+ ┃   ${usedPrefix}añadir𝑹𝒖𝒃𝒚 𝑩𝒐𝒕coins *@tag cantidad*
  ┃
- ╰━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━━━
+ ╰━━━━━━━ 𝑹𝒖𝒃𝒚 𝑩𝒐𝒕 ━━━━━━
 `.trim()
-await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕� 𝗕𝗼𝘁 ☁️', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
+await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝑹𝒖𝒃𝒚 𝑩𝒐𝒕 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
 } catch (e) {
